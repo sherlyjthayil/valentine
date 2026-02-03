@@ -28,7 +28,7 @@ btnSubmit.addEventListener("click", function() {
         if (selectedOption.value === "yes") {
             errMsg.textContent = "";
             responseText.textContent = "Wow! Excellent decision, You have unlocked Valentine Mode ❤️.";
-            sherImg.src = "./images/sher2.jpg";
+            sherImg.src = "./images/sher2-bx9y65q3.jpg";
              step2.style.display = "block"; // reveal Step 2
             responseElement.style.display = "block";
         } else {
