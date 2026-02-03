@@ -12,7 +12,7 @@
     <!-- Step 1 -->
     <div class="box">
         <h1>Sachin, Sherly has an important question… will you be her Valentine ❤️?</h1>
-        <img src="./images/sher2.jpg" alt="Sherly" width="200" style="border-radius: 12px; margin-top: 10px;">
+
         <label>
             <input type="radio" name="valentine" value="yes"> Yes
         </label>
@@ -22,8 +22,16 @@
         </label>
         <br>
         <button id="btn-Submit">Submit</button>
-        <div id="response"></div>
+        <div id="response" style="display: none;">
+            <div id="responseText" style="margin-top: 10px; border-radius: 12px; padding: 10px;"></div>
+            <br>
+            <img id="sherlyImage" src="./images/sher2.jpg" alt="Sherly" width="200"
+                style="border-radius: 12px; margin-top: 10px;">
+        </div>
+        <div id="submitErrorMsg" style="margin-top: 10px; border-radius: 12px; padding: 10px;">
+        </div>
     </div>
+
 
 
     <!-- Step 2 -->
