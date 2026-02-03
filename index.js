@@ -18,7 +18,7 @@ const referenceInDB = ref(database, "Response")
 const responseElement = document.getElementById("response");
 const btnSubmit = document.getElementById("btn-Submit");
 const step2 = document.getElementById("step2");
-
+const step3 = document.getElementById("step3");
 btnSubmit.addEventListener("click", function() {
     const selectedOption = document.querySelector('input[name="valentine"]:checked');
     if (selectedOption) {
@@ -26,7 +26,7 @@ btnSubmit.addEventListener("click", function() {
             responseElement.textContent = "Wow! Excellent decision, You have unlocked Valentine Mode ❤️.";
              step2.style.display = "block"; // reveal Step 2
              const img1 = document.createElement("img");
-            img1.src = "sher2.jpg";
+            img1.src = "./images/sher2.jpg";
             img1.width = 200;
             img1.style.borderRadius = "12px";
             img1.style.marginTop = "10px";
@@ -35,8 +35,9 @@ btnSubmit.addEventListener("click", function() {
         } else {
             responseElement.textContent = "🚨 Wrong answer! Please select YES 😏";
             step2.style.display = "none";
+             step3.style.display = "none";
              const img = document.createElement("img");
-            img.src = "sher.jpg";
+            img.src = "./images/sher.jpg";
             img.width = 200;
             img.style.borderRadius = "12px";
             img.style.marginTop = "10px";
