@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Step 1 -->
+    <div class="box">
+        <h1>Sachin, Sherly has an important question… will you be her Valentine ❤️?</h1>
+        <label>
+            <input type="radio" name="valentine" value="yes"> Yes
+        </label>
+
+        <label style="margin-left: 20px;">
+            <input type="radio" name="valentine" value="no"> No
+        </label>
+        <br>
+        <button id="btn-Submit">Submit</button>
+        <div id="response"></div>
+    </div>
+
+
+    <!-- Step 2 -->
+    <div class="box" id="step2">
+        <h2>🍽 Step 2 — Celebration choice</h2>
+        <p>How shall we celebrate?</p>
+
+        <label>
+            <input type="radio" name="celebrate" value="eat"> Eat in 🍝
+        </label>
+
+        <br>
+
+        <label>
+            <input type="radio" name="celebrate" value="dine"> Dine out 🍷
+        </label>
+        <br>
+        <button id="btn-Next">Next</button>
+    </div>
+    <!-- Step 3 -->
+    <div class="box" id="step3">
+        <h2 id="question"></h2>
+        <input type="text" id="answer" placeholder="Type your answer..." style="width:90%">
+        <br>
+        <button id="btn-SubmitAnswer">Submit</button>
+        <div id="finalMsg"></div>
+        <script src="index.js" type="module"></script>
+</body>
+
+</html>
