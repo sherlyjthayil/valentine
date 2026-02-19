@@ -3,12 +3,6 @@ body {
     text-align: center;
     margin-top: 80px;
     background: #ffe6f0;
-    background-image: url("./images/sher2.jpg");
-    background-position: center;
-    background-size: cover;
-    color: #333;
-    width: 100%;
-    background-size: contain;
 }
 
 h1 {
